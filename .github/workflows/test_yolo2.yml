@@ -1,4 +1,5 @@
-name: YOLOv5 Inference2
+
+name: YOLOv5 Inference
 on:
   workflow_dispatch: # 手動でワークフローをトリガーするためのトリガーを追加する
   
@@ -15,6 +16,8 @@ jobs:
       with:
         python-version: '3.x' # 3.x にはお好みのPythonバージョンを指定してください
 
-    - name: Run YOLOv5 inference2
+
+    - name: Run YOLOv5 inference
       run: |
         python test.py
+
