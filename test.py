@@ -1,4 +1,4 @@
-import torch
+
 from PIL import Image
 
 # YOLOv5モデルを読み込む
